@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-stardew",
   "version": "1.0.0",
   "description": "Stardew Valley themed plugin for DeepSeek Harness (DSH): pixel UI style presets, reminder SFX, background OST, pixel font toggle, token usage heatmap with month calendar, and Canvas particle weather.",
@@ -27,6 +27,6 @@
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "stardew-valley", "pixel-art", "theme", "weather", "token-stats"],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Trouvaille-xx/dsh-stardew.git"
+    "url": "git+https://github.com/Trouvaille-xx/dsh-StardewValley-UI.git"
   }
 }

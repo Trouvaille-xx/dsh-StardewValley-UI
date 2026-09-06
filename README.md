@@ -1,4 +1,4 @@
-# dsh-stardew
+﻿# dsh-stardew
 
 把星露谷物语的像素风和音效带进 **DeepSeek Harness（DSH）** 的 Web GUI。设置页新增「星露谷 Stardew Valley」分页。
 
@@ -29,10 +29,10 @@ Bring the Stardew Valley pixel vibe and sounds into the **DeepSeek Harness (DSH)
 
 ```bash
 # macOS / Linux
-git clone https://github.com/Trouvaille-xx/dsh-stardew.git "$HOME/.dsh/profiles/web/node_modules/dsh-stardew"
+git clone https://github.com/Trouvaille-xx/dsh-StardewValley-UI.git "$HOME/.dsh/profiles/web/node_modules/dsh-stardew"
 
 # Windows PowerShell
-git clone https://github.com/Trouvaille-xx/dsh-stardew.git "$env:USERPROFILE\.dsh\profiles\web\node_modules\dsh-stardew"
+git clone https://github.com/Trouvaille-xx/dsh-StardewValley-UI.git "$env:USERPROFILE\.dsh\profiles\web\node_modules\dsh-stardew"
 ```
 
 把 `"dsh-stardew"` 加进 `profiles/web/package.json` 的 `dsh.profile.bundles`，然后**完全重启 DSH**：
@@ -51,7 +51,7 @@ git clone https://github.com/Trouvaille-xx/dsh-stardew.git "$env:USERPROFILE\.ds
 
 ```text
 请帮我安装 dsh-stardew 插件（星露谷主题 bundle）：
-1. 运行：git clone https://github.com/Trouvaille-xx/dsh-stardew.git "$HOME/.dsh/profiles/web/node_modules/dsh-stardew"
+1. 运行：git clone https://github.com/Trouvaille-xx/dsh-StardewValley-UI.git "$HOME/.dsh/profiles/web/node_modules/dsh-stardew"
    （Windows：把 $HOME 换成 $env:USERPROFILE）
 2. 编辑 profiles/web/package.json，在 dsh.profile.bundles 数组中加入 "dsh-stardew"（如果已有其他 bundle 就追加）。
 3. 校验：对 lib/index.js 和 lib/client.js 分别运行 node --check。
@@ -62,7 +62,7 @@ git clone https://github.com/Trouvaille-xx/dsh-stardew.git "$env:USERPROFILE\.ds
 
 ```text
 请帮我安装 dsh-stardew 插件：
-1. 下载 https://github.com/Trouvaille-xx/dsh-stardew/archive/refs/heads/main.zip 到临时目录并解压。
+1. 下载 https://github.com/Trouvaille-xx/dsh-StardewValley-UI/archive/refs/heads/main.zip 到临时目录并解压。
 2. 把解压出的 dsh-stardew-main 目录整体复制到 "$HOME/.dsh/profiles/web/node_modules/dsh-stardew"（Windows 用 $env:USERPROFILE）。
 3. 编辑 profiles/web/package.json，在 dsh.profile.bundles 中加入 "dsh-stardew"。
 4. node --check 校验 lib/*.js，然后提醒我完全重启 DSH。
