@@ -1,0 +1,6 @@
+# dsh-stardew bundle patch.
+# Applied automatically because package.json declares dsh.bundle.patch and the
+# package is listed in the web profile's dsh.profile.bundles.
+- insert:
+    - id: stardew-ui
+      name: dsh-stardew
