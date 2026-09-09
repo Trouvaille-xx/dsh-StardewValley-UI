@@ -12,8 +12,8 @@ Bring the Stardew Valley pixel vibe and sounds into the **DeepSeek Harness (DSH)
   Five toggleable auto-triggered SFX groups (ambient / attention / done / error / click); clicking "New Session" plays the chest-put sound (`openBox`).
 - **背景 OST / Background OST**：**默认开启并循环播放**所选曲目；点击曲目试听/切换。
   **On by default and looping** the selected track; click a track to preview or switch.
-- **像素字体 / Pixel font**：一键切换全局像素字体（需自备 Fusion Pixel SC / Silkscreen 字体）。
-  One-click global pixel font (bring your own Fusion Pixel SC / Silkscreen).
+- **像素字体 / Pixel font**：默认关闭（保持默认字体），一键切换全局像素字体（需自备 Fusion Pixel SC / Silkscreen）。
+  Off by default (keeps the DSH default font); one-click global pixel font (bring your own Fusion Pixel SC / Silkscreen).
 - **总 Token 计数 / Token stats**：GitHub 风格热力图 + 月历；点击日期同时展示 **当天 / 当周 / 当月**（数字 + 占比进度条），按会话日期聚合真实用量（总计 / 输入未命中 / 输入缓存命中 / 输出）。
   GitHub-style heatmap + month calendar; clicking a date shows **day / week / month** consumption at once (numbers + ratio bars), aggregated by session date (total / input-miss / input-hit / output).
 - **天气 / Weather**：Canvas 像素粒子 —— 雨（蓝色斜丝 + 落地涟漪）、雪（冰蓝六角雪花自转）；「冬」预设自动大雪，切其他预设回到晴天；雨/雪环境音低音量常开。
