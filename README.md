@@ -1,8 +1,13 @@
-﻿# dsh-stardew
+# dsh-stardew
 
 把星露谷物语的像素风和音效带进 **DeepSeek Harness（DSH）** 的 Web GUI。设置页新增「星露谷 Stardew Valley」分页。
 
 Bring the Stardew Valley pixel vibe and sounds into the **DeepSeek Harness (DSH)** web GUI, via a new "Stardew Valley · 星露谷" page in Settings.
+
+![Preview · 冬 Winter + 大雪天气](docs/preview.png)
+
+> 截图：冬 Winter 预设 + 大雪天气（Canvas 六角雪花 / 侧栏像素横幅 / 右上 SNOW STORM 徽章）。
+> Screenshot: Winter preset with heavy snow — Canvas hexagon flakes, pixel sidebar banner, top-right SNOW STORM badge.
 
 ## 功能 Features
 
